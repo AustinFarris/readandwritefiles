@@ -15,6 +15,9 @@ def main():
 
         writer.writerow(cust_list)
 
+    infile.close()
+    outfile.close()
+
 
 if __name__ == "__main__":
     main()
